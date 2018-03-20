@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JS Game</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="javascript2-brzoska.js"></script>
+	</head>
+	<body onload="init()">
+		<div class="header">  <!--  Content of the header block on the game screen -->
+			<img src="images/blue.jpg" alt="header" width="300" height="50">
+		</div>
+		<div class = "main">  <!--  Content of the main section of the game screen -->
+			<img src = "images/van.jpg" alt="images/first pic" width="400" height="300" id="theImage">
+			<p id="description">
+			"Room description" 
+			</p>
+		</div>
+		<div class="form">  <!--  Content of the user interface section of the game screen -->
+			<form>
+				<label>
+					Prompt:  <!--  This is where the user enters commands -->
+					<input type="text" id="prompt" onkeypress="newCommand()">
+				</label>
+				<div>
+					Inventory:  <!--  This is where the items the user has in his inventory is displayed -->
+					<div id="playerItems">
+					</div>
+				</div>
+				<div>
+					Items:  <!--  This is where the objects in a room that the user needs to pick up is displayed -->
+					<div id="roomItems">
+					</div>
+				</div>
+				<div>
+					Score:  <!-- This is where the player's score is displayed  -->
+					<div id="score">
+					</div>
+				</div>
+		</form>
+		</div>	
+	</body>
+</html>

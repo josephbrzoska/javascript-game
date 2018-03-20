@@ -1,0 +1,34 @@
+body{
+	font-family:Verdana;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-image: url("drops.jpg");
+	background-size: 100% 100%;
+}
+.myclass{
+	height: 120px;
+}
+.header{  /* This is the design for the project info box on the game screen */
+	color: white;
+	background-color: #000821;
+	box-shadow: 0px 0px 20px white;
+	border:5px solid black;
+} 
+.main{  /* This is the design for the display of the current room and room info on the game screen */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #3385FF;
+	border:5px solid black;
+	box-shadow: 0px 0px 20px white;
+}
+.form{  /* This is the design for the interface where the user enters commands on the screen */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #3385FF;
+	box-shadow: 0px 0px 20px white;
+	border:5px solid black;
+}
