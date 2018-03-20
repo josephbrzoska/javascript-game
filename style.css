@@ -28,7 +28,7 @@ body{
 .form{  /* This is the design for the interface where the user enters commands on the screen */
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #3385FF;
+	background-color: 00A8E8;
 	box-shadow: 0px 0px 20px white;
 	border:5px solid black;
 }
